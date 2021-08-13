@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RP2040)(type Legacy)(uri /Users/darko/projects/microbyte/kicad/libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name SOFNG)(type Legacy)(uri /Users/darko/projects/microbyte/kicad/libraries/SOFNG_TF-15x15_KiCad/TF-15X15.lib)(options "")(descr ""))
+)

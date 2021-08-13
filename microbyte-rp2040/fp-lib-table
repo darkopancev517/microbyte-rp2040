@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name RP2040)(type KiCad)(uri /Users/darko/projects/microbyte/kicad/libraries/RP_Silicon_KiCad/KiCadLibraries/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
+  (lib (name SOFNG)(type KiCad)(uri /Users/darko/projects/microbyte/kicad/libraries/SOFNG_TF-15x15_KiCad/TF15X15.pretty)(options "")(descr ""))
+  (lib (name LOGO)(type KiCad)(uri /Users/darko/projects/microbyte/logo/microbyte_symbol.pretty)(options "")(descr ""))
+)
