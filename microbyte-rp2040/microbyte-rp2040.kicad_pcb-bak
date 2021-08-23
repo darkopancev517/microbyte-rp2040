@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 54)
+    (drawings 52)
     (tracks 1024)
     (zones 0)
     (modules 53)
@@ -247,6 +247,7 @@
 
   (module LOGO:microbyte_new_font locked (layer B.Cu) (tedit 0) (tstamp 611F890A)
     (at 137.11 101.7 180)
+    (attr smd)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -422,6 +423,7 @@
 
   (module LOGO:microbyte_new_logo locked (layer B.Cu) (tedit 0) (tstamp 611F7DA4)
     (at 137.11 92.84 180)
+    (attr smd)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -2831,8 +2833,6 @@
   (gr_text BOOT (at 123.29 89.47 90) (layer F.SilkS) (tstamp 6120B229)
     (effects (font (size 0.7 0.7) (thickness 0.12)))
   )
-  (gr_circle (center 122.8 107.64) (end 123.376 107.64) (layer Edge.Cuts) (width 0.074) (tstamp 610CE357))
-  (gr_circle (center 179.73 85.51) (end 180.306 85.51) (layer Edge.Cuts) (width 0.074) (tstamp 610CEA63))
   (gr_text JLCJLCJLC (at 168.33 107.36) (layer B.SilkS) (tstamp 610CE340)
     (effects (font (size 0.9 0.9) (thickness 0.15)) (justify mirror))
   )
@@ -4083,7 +4083,7 @@
   (segment (start 147.93 104.82) (end 147.93 103.3975) (width 0.5) (layer F.Cu) (net 66))
   (segment (start 147.62 105.13) (end 147.93 104.82) (width 0.5) (layer F.Cu) (net 66))
 
-  (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 61210574) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 611F588A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4677,7 +4677,7 @@
       )
     )
   )
-  (zone (net 3) (net_name +3V3) (layer In2.Cu) (tstamp 61210571) (hatch edge 0.508)
+  (zone (net 3) (net_name +3V3) (layer In2.Cu) (tstamp 611F5887) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5305,7 +5305,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6121056E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 611F5884) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5971,7 +5971,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6121056B) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 611F5881) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
